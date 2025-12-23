@@ -6,7 +6,7 @@ __copyright__ = "Copyright 2020, Luis Carrillo Gutiérrez"
 
 app = bottle.Bottle()
 
-DB = '/var/www/html/@Week/data.db'
+DB = '/tmp/data.db'
 
 MINIMAL_CORS = {
 	'Content-type':'application/json',
